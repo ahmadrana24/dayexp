@@ -1,3 +1,4 @@
+import 'package:dayexp/res/app_colors.dart';
 import 'package:flutter/material.dart';
 
 class AppConstants {
@@ -14,9 +15,9 @@ class AppConstants {
     fontWeight: FontWeight.w500,
   );
   static BoxShadow homeContainerShadow = BoxShadow(
-    color: const Color(0xff4B7EFF).withOpacity(0.3),
+    color: AppColors.primaryColor.withOpacity(0.3),
     spreadRadius: 0,
     blurRadius: 3,
-    offset: const Offset(10, 10),
+    offset: const Offset(0, 5),
   );
 }
